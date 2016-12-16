@@ -13,6 +13,6 @@
 
 
 
-Route::get('/about','PagesController@about');
+Route::get('/','PagesController@login');
 
-Route::get('/','CardsController@index');
+

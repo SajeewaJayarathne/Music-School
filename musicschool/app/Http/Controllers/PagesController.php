@@ -6,15 +6,11 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    public function home()
-    {
-    	$people = ['AAAAAAAAAA','B','C'];
-		return view('welcome', compact('people'));
-    }
+    
 
-    public function about()
+    public function login()
     {
-    	return view('about');
+    	return view('Login.login');
     }
 
 }
