@@ -15,4 +15,6 @@
 
 Route::get('/','PagesController@login');
 
+Route::get('/layout','PagesController@layout_test');
+
 

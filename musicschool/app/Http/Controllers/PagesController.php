@@ -13,4 +13,9 @@ class PagesController extends Controller
     	return view('Login.login');
     }
 
+    public function layout_test()
+    {
+    	return view('attendance.student_attendance');
+    }
+
 }

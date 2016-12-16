@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Music Academy</title>
     <!-- Bootstrap -->
-	<link href="{{URL::asset(login/css/bootstrap.css)}}" rel="stylesheet">
-    <link href="{{URL::asset(login/css/default.css)}}" rel="stylesheet" type = "text/css">
+	<link href="{{URL::asset('login/css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('login/css/default.css')}}" rel="stylesheet" type = "text/css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +23,7 @@
       <div class = "row">
       <div id="settings-button" data-target = "#popup-window-settings" data-toggle="modal" >
       <a href="#">
-      	<img src = "icons/settings-icon.png" width="16" onMouseOver="this.src='icons/settings-icon-hover.png'" onMouseOut="this.src='icons/settings-icon.png'" />
+      	<img src = "login/icons/settings-icon.png" width="16" onMouseOver="this.src='login/icons/settings-icon-hover.png'" onMouseOut="this.src='login/icons/settings-icon.png'" />
         </a>
       </div> 
       
@@ -43,7 +43,7 @@
     	<div class = "modal-content" id = "popup-window-settings-modal-dialog">
         	<div class = "modal-header" id = "popup-window-settings-modal-header" >
             	<button class = "close" data-dismiss = "modal">
-                	<img src = "icons/close-icon.png" onMouseOver="this.src='icons/close-icon-hover.png'" onMouseOut="this.src='icons/close-icon.png'" />
+                	<img src = "icons/close-icon.png" onMouseOver="this.src='login/icons/close-icon-hover.png'" onMouseOut="this.src='login/icons/close-icon.png'" />
                 </button>
             	<h4 class = "modal-title" id = "popup-window-settings-modal-title">Settings</h4>
             </div>
@@ -102,14 +102,16 @@
                 </ul>
                 </div>
                 <div id="logo-image-div" >
-                <img src="icons/logo.png" id="logo-image"/>
+                <img src="login/icons/logo.png" id="logo-image"/>
                 </div>
                 </div>
   			</div>
   			<div class="col-md-10 display-table-cell v-align box" id="content-area">            	
                 <div id="background-image-div" >
-                	<img src="icons/background.png" id="background-image"/>
-                </div>               
+                	<img src="login/icons/background.png" id="background-image"/>
+
+                </div>   
+                @yield('main_content')            
   			</div>
   		</div>
   	</div>
@@ -137,9 +139,9 @@
     <nav class="navbar-custom navbar-fixed-bottom-custom-right">
 	  <div id="status-icons-bottom-right">
       <ul>
-	    	<li><img src = "icons/not-live-icon.png" /></li>
-            <li data-target = "#popup-window-login" data-toggle="modal"><img src = "icons/lock-icon.png" onMouseOver="this.src='icons/lock-icon-hover.png'" onMouseOut="this.src='icons/lock-icon.png'" /></li>
-            <li><img src = "icons/network-icon.png" onMouseOver="this.src='icons/network-icon-hover.png'" onMouseOut="this.src='icons/network-icon.png'" /></li>
+	    	<li><img src = "login/icons/not-live-icon.png" /></li>
+            <li data-target = "#popup-window-login" data-toggle="modal"><img src = "login/icons/lock-icon.png" onMouseOver="this.src='login/icons/lock-icon-hover.png'" onMouseOut="this.src='login/icons/lock-icon.png'" /></li>
+            <li><img src = "login/icons/network-icon.png" onMouseOver="this.src='login/icons/network-icon-hover.png'" onMouseOut="this.src='login/icons/network-icon.png'" /></li>
        </ul>
       </div>
   	</nav>
