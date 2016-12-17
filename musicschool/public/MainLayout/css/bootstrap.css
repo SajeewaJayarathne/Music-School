@@ -4180,22 +4180,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-bottom-custom {
   position: fixed;
   right: 21%;
-  left: 16.8%;
-  background-color:#2c2c32;
+  left: 20%;
+  background-color:#202025;
   margin-top:0px;
-	border:none;
-	height:100%;
+  border:none;
+  height:100%;
   z-index: 1030;
 }
 
 .navbar-fixed-bottom-custom-left {
   position: fixed;
-  right: 83.4%;
+  right: 80.1%;
   left: 0%;
-  background-color:#2c2c32;
+  background-color:#202025;
   margin-top:0px;
-	border:none;
-	height:100%;
+  border:none;
+  height:100%;
   z-index: 1030;
 }
 
@@ -4203,7 +4203,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: fixed;
   right: 0%;
   left: 79.2%;
-  background-color:#2c2c32;
+  background-color:#202025;
   margin-top:0px;
 	border:none;
 	height:100%;

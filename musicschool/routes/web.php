@@ -64,3 +64,6 @@ Route::group(['middleware' =>['web']], function(){
 
 
 
+Route::get('/attendance','PagesController@student_attendance');
+
+

@@ -15,4 +15,8 @@ class DatabaseConnections
 		return $status;
 	}
 
+	public function getLessonCodes(){
+	    $lessons = DB::select('select * from lesson where ');
+
+    }
 }

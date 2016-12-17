@@ -20,12 +20,16 @@ class PagesController extends Controller
 
     public function dashboard()
     {
-    	return view('attendance.student_attendance');
+    	return view('attendance.mark_student_attendance');
     }
 
     public function layout_test()
     {
-    	return view('attendance.student_attendance');
+    	return view('MainLayout.mainlayout');
     }
 
+	public function student_attendance()
+    {
+    	return view('attendance.mark_student_attendance');
+    }
 }
