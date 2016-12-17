@@ -18,3 +18,6 @@ Route::get('/','PagesController@login');
 Route::get('/layout','PagesController@layout_test');
 
 
+Route::get('/attendance','PagesController@student_attendance');
+
+

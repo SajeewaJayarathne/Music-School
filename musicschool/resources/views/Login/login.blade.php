@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Music Academy</title>
+    <link rel="ICON" href="icons/favicon.ico" type="image/ico" />
     <!-- Bootstrap -->
 	<link href="{{URL::asset('login/css/bootstrap.css')}}" rel="stylesheet">
     <link href="{{URL::asset('login/css/default.css')}}" rel="stylesheet" type = "text/css">
