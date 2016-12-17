@@ -38,11 +38,22 @@
     </div>
 
       <div class = "col-md-3" style = "margin-left:40%; margin-right:35% background:white;">
+      <div class = "row" style="padding-top: 10px; align-content: center;">
+            <div class="col-md-12">
+
+              <ul style="color: orange;">
+                <div>
+                   <span style="background-color: white"> <li class="list-group-item">Your User ID or Password is Incorrect</li></span>
+                </div>
+                
+              </ul>
+          </div>
        @if(count($errors)>0)
           <div class = "row" style="padding-top: 10px; align-content: center;">
             <div class="col-md-12">
 
               <ul style="color: orange;">
+               </span>
                 @foreach($errors->all() as $error)
                   <div>
                    <span style="background-color: white"> <li class="list-group-item">{{$error}}</li></span>

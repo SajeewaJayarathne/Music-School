@@ -109,7 +109,6 @@
   			<div class="col-md-10 display-table-cell v-align box" id="content-area">            	
                 <div id="background-image-div" >
                 	<img src="login/icons/background.png" id="background-image"/>
-
                 </div>   
                 @yield('main_content')            
   			</div>

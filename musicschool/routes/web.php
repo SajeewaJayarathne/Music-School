@@ -13,8 +13,54 @@
 
 
 
-Route::get('/','PagesController@login');
 
-Route::get('/layout','PagesController@layout_test');
+
+
+Route::group(['middleware' =>['web']], function(){
+	Route::get('/',[
+		'uses' => 'PagesController@login',
+		'as' => 'loginPage'
+		]);
+
+	Route::get('/login',[
+		'uses' => 'PagesController@login',
+		'as' => 'loginPage'
+		]);
+
+	Route::get('/loginerror',[
+		'uses' => 'PagesController@loginerror',
+		'as' => 'loginerror'
+		]);
+	//Route::post('/storeUser',[
+	//		'uses'=> 'UserController@storeUser',
+	//		'as' => 'storeUser'
+	//	]);
+
+	Route::post('/loginUser',[
+			'uses'=> 'UserController@loginUser',
+			'as' => 'loginUser'
+		]);
+	Route::post('/logout',[
+			'uses'=> 'UserController@logout',
+			'as' => 'logout',
+			'middleware' => 'auth'
+		]);
+	
+
+
+
+	Route::get('/dashboard',[
+			'uses'=> 'PagesController@dashboard',
+			'as' => 'dashboard',
+			'middleware' => 'auth'
+		]);
+
+	} 
+);
+
+
+
+
+
 
 
