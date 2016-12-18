@@ -6,7 +6,7 @@
   <h3>MARK ATTENDANCE</h3>                                             
 </div>
 
-<form method="post" action="{{route('mark_student_attendance_second')}}">
+<form action="{{route('getStudentList')}}" method="post">
 	<div class="list-in-a-row">
 	<ul>
 		<li><h4 style="padding-right:5px;">Lesson :</h4></li>
@@ -19,44 +19,16 @@
 	<ul>
 	    <li><h4 style="padding-right:5px;">Date :</h4></li>    
 		<li><input class="form-control" type="date" value="" name="date" id="date" size="15px" style="color:#000000;"> </li>
-	</ul> 
+	</ul>
+
+		<ul>
+			<li style="padding-left: 50px">
+				<button name = "next" id = "next" type="submit" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>NEXT</b></button>
+			</li>
+		</ul>
 
 	</div>
 
-	<div class = "col-md-10" style="margin-left:2.2%; margin-top:2%;">
-		<button type="button" class="btn btn-primary1" name="mark_attendance" id="mark_attendance" style="color:#000000; font-size:110%;"><b>MARK ATTENDANCE</b></button>
-	</div>
-
-	<div class = "col-md-10" style="margin-left:2.2%;">
-		<h4>Student Names :</h4>
-	</div>
-
-	<div class = "col-md-10" style="margin-left:2.2%;">
-		<table style="width:80%; color:#FFFFFF; margin-left:20%;">
-			<thead>
-			<th></th>
-			<th>Index No:</th>
-			<th>Name</th>
-			</thead>
-
-			<tbody>
-			<tr>
-				<td><input type="checkbox"/></td>
-				<td>140710N</td>
-				<td>D. S. G. Jayarathne</td>
-			</tr>
-
-			<tr>
-				<td><input type="checkbox"/></td>
-				<td>140710N</td>
-				<td>D. S. G. Jayarathne</td>
-			</tr>
-
-			</tbody>
-		</table>
-
-
-	</div>
 
 </form>
 
@@ -81,6 +53,10 @@
             })
         });
     });
+
+
+
+
 
 </script>
 

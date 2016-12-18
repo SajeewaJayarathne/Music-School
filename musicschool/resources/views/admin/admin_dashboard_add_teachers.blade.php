@@ -92,18 +92,23 @@
         <h4 style="padding-left: 25px; background: #761c19;">Office Use</h4>
         <div class="list-in-a-row">
             <ul>
-                <li><h4 style="padding-right:5px;">User ID :</h4></li>
-                <li><input class="form-control" type = "text" name="parent_first_name" id="parent_first_name" size="1px"></li>
+            <li><h4 style="padding-right:5px;">Index No :</h4></li>
+            <li><input list = "indexes" class="form-control" type = "text" name="index" id="index" size="1px"></li>
+            </ul>
+
+            <ul>
+            <li><h4 style="padding-right:5px;">Confirm Index No :</h4></li>
+            <li><input list = "indexes" class="form-control" type = "text" name="index_confirm" id="index_confirm" size="1px"></li>
             </ul>
 
             <ul>
                 <li><h4 style="padding-right:5px;">Basic Salary :</h4></li>
-                <li><input class="form-control" type = "text" name="parent_first_name" id="parent_first_name" size="1px"></li>
+                <li><input class="form-control" type = "text" name="Basic Salary" id="Basic Salary" size="1px"></li>
             </ul>
 
             <ul>
-                <li style="padding-left: 450%">
-                    <button type="submit-attendance" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
+                <li style="padding-left: 50px">
+                    <button id = "submit" type="button" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
                 </li>
             </ul>
 
@@ -111,6 +116,50 @@
     </div>
 
 </form>
+
+    <script>
+        $(document).ready(function() {
+
+            $('#submit').click(function(){
+                if($('#index').val() == $('#index_confirm').val() && $('#index').val() != "" && $('#index_confirm').val() != "" ){
+                    $('#submit').prop('disabled', false);
+                }else{
+                    $('#submit').prop('disabled', true);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+
+            $('#index').keyup(function(){
+                if($('#index').val() == $('#index_confirm').val() && $('#index').val() != "" && $('#index_confirm').val() != "" ){
+                    $('#submit').prop('disabled', false);
+                }else{
+                    $('#submit').prop('disabled', true);
+                }
+            });
+        });
+
+        $(document).ready(function() {
+
+            $('#index_confirm').keyup(function(){
+                if($('#index').val() == $('#index_confirm').val() && $('#index').val() != "" && $('#index_confirm').val() != "" ){
+                    $('#submit').prop('disabled', false);
+                }else{
+                    $('#submit').prop('disabled', true);
+                }
+            });
+        });
+        $(document).ready(function() {
+            $('#btn_sibling').click(function(){
+                $('#sibling_list').val($('#sibling_list').val() +","+ $('#sibling_index').val());
+                $('#sibling_index').val("");
+
+            });
+        });
+    </script>
+
+
 
 @stop
 

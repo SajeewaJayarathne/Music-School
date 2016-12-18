@@ -43,19 +43,29 @@ Route::group(['middleware' =>['web']], function(){
 
     Route::get('/getStudentID',[
         'uses'=> 'DataController@getStudentID',
-        'as' => 'getStudentID'
+        'as' => 'getStudentID',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/getStudentList',[
+        'uses'=> 'DataController@getStudentList',
+        'as' => 'getStudentList',
+        'middleware' => 'auth'
 
     ]);
 
     Route::get('/getLessonID',[
         'uses'=> 'DataController@getLessonID',
-        'as' => 'getLessonID'
+        'as' => 'getLessonID',
+
 
     ]);
 
     Route::post('/storeStudent',[
         'uses'=> 'DataController@storeStudent',
-        'as' => 'storeStudent'
+        'as' => 'storeStudent',
+        'middleware' => 'auth'
 
     ]);
 //    Route::get('/',[
@@ -105,6 +115,9 @@ Route::group(['middleware' =>['web']], function(){
 
 
 	//From Suji
+
+
+
 
 
     Route::get('/teacher_dashboard',[

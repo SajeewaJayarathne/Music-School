@@ -18,6 +18,15 @@ class DataController extends Controller
         return $lessonID;
     }
 
+    public function getStudentList(\Symfony\Component\HttpFoundation\Request $request){
+        $id =  $request->input('lesson_id');
+        $date = $request ->input('date');
+        $students = DB::select("SELECT student_id FROM takes where lesson_id = '".$id."'",[]);
+        return view('teacher.mark_attendance_second',['studentList' => array($id,$date,$students)]) ;
+    }
+
+
+
     public function  storeStudent(Request $request){
         $status = DB::statement("call music_school.store_student(?, ?, ?, ?, 
         ?, ?, ?, ?, ?, ?, ?,?, ?, 
