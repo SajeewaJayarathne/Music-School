@@ -25,7 +25,8 @@ class PagesController extends Controller
 
     public function admin_dashboard()
     {
-        return view('admin.admin_dashboard');
+        $data = " some data";
+        return view('admin.admin_dashboard')->with('test', $data);
     }
 
     public function add_students()

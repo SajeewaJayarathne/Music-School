@@ -41,12 +41,17 @@ Route::group(['middleware' =>['web']], function(){
 			'as' => 'loginRedirect'
 		]);
 
-    Route::get('/',[
+    Route::get('/getStudentID',[
         'uses'=> 'DataController@getStudentID',
         'as' => 'getStudentID'
 
     ]);
 
+    Route::post('/storeStudent',[
+        'uses'=> 'DataController@storeStudent',
+        'as' => 'storeStudent'
+
+    ]);
 //    Route::get('/',[
 //        'uses'=> 'PagesController@login',
 //        'as' => 'loginRedirect'
