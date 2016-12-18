@@ -48,9 +48,9 @@ class UserController extends Controller
                     if($subqueryAdmin != null and $subqueryStudent == null and $subqueryTeacher == null ){
                         return redirect()->route('admin_dashboard');
                     }else if($subqueryAdmin == null and $subqueryStudent != null and $subqueryTeacher == null  ){
-                        return "student_dashboard";
+                        return redirect()->route('student_dashboard');
                     }else if($subqueryAdmin == null and $subqueryStudent == null and $subqueryTeacher != null  ){
-                        return "teacher_dashboard";
+                        return redirect()->route('teacher_dashboard');
                     }else{
                         return redirect()->route('loginerror');
                     }
