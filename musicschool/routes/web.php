@@ -36,18 +36,55 @@ Route::group(['middleware' =>['web']], function(){
 	//		'as' => 'storeUser'
 	//	]);
 
-	Route::post('/loginUser',[
-			'uses'=> 'UserController@loginUser',
-			'as' => 'loginUser'
+	Route::get('/loginRedirect',[
+			'uses'=> 'PagesController@login',
+			'as' => 'loginRedirect'
 		]);
-	Route::post('/logout',[
+
+    Route::get('/',[
+        'uses'=> 'DataController@getStudentID',
+        'as' => 'getStudentID'
+
+    ]);
+
+//    Route::get('/',[
+//        'uses'=> 'PagesController@login',
+//        'as' => 'loginRedirect'
+//    ]);
+
+    Route::post('/loginUser',[
+        'uses'=> 'UserController@loginUser',
+        'as' => 'loginUser'
+    ]);
+	Route::get('/logout',[
 			'uses'=> 'UserController@logout',
 			'as' => 'logout',
 			'middleware' => 'auth'
 		]);
-	
 
+    Route::get('/admin_dashboard',[
+        'uses'=> 'PagesController@admin_dashboard',
+        'as' => 'admin_dashboard',
+        'middleware' => 'auth'
+    ]);
 
+    Route::get('/add_students',[
+        'uses'=> 'PagesController@add_students',
+        'as' => 'add_students',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/add_teachers',[
+        'uses'=> 'PagesController@add_teachers',
+        'as' => 'add_teachers',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/add_admin',[
+        'uses'=> 'PagesController@add_admin',
+        'as' => 'add_admin',
+        'middleware' => 'auth'
+    ]);
 
 	Route::get('/dashboard',[
 			'uses'=> 'PagesController@dashboard',

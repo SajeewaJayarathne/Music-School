@@ -23,6 +23,25 @@ class PagesController extends Controller
     	return view('attendance.mark_student_attendance');
     }
 
+    public function admin_dashboard()
+    {
+        return view('admin.admin_dashboard');
+    }
+
+    public function add_students()
+    {
+        return view('admin.admin_dashboard_add_students');
+    }
+
+    public function add_teachers()
+    {
+        return view('admin.admin_dashboard_add_teachers');
+    }
+
+    public function add_admin()
+    {
+        return view('admin.admin_dashboard_add_admin');
+    }
     public function layout_test()
     {
     	return view('MainLayout.mainlayout');

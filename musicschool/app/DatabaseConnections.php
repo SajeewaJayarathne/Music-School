@@ -8,15 +8,15 @@ class DatabaseConnections
 {
 	public function storeUser()
 	{
-		$status = DB::insert('insert into login_details (id, password, remember_token) values (?, ?, ?)', 
-			["AAA", bcrypt("AAA"), ""]
-			);
+		//$status = DB::insert('insert into login_details (id, password, remember_token) values (?, ?, ?)',
+		//	[$user, bcrypt("AAA"), ""]
+		//	);
 
-		return $status;
+		//return $status;
 	}
 
 	public function getLessonCodes(){
-	    $lessons = DB::select('select * from lesson where ');
+	   // $lessons = DB::select('select * from lesson where ');
 
     }
 }

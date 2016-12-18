@@ -34,7 +34,7 @@
       <div class="right-side-of-row">
         <ul>
           <li><a href="#" class="username"></a></li>
-            <li><a href="#" class="logout-link">[logout]</a></li>
+            <li><a href="#" class="logout-link" style="font-size: large" onclick="window.location ='{{route("logout")}}'" >[logout]</a></li>
         </ul>
       </div>         
       </div>
@@ -81,7 +81,7 @@
               <button class = "close" data-dismiss = "modal">
                   <img src = "icons/close-icon.png" onMouseOver="this.src='icons/close-icon-hover.png'" onMouseOut="this.src='icons/close-icon.png'" />
                 </button>
-              <h4 class = "modal-title" id = "popup-window-login-modal-title">Unlock Wallet</h4>
+              <h4 class = "modal-title" id = "popup-window-login-modal-title">Options Menu</h4>
             </div>            
             <div class = "modal-footer">
               <form  >
@@ -119,20 +119,9 @@
                 <div class="row">
                 
                 <div id ="main-menu-items">
-                  <ul id="drop-nav">                  
-                    <li><a href="#"><span>Attendance</span></a>
-                      <ul>
-                        <li><a href="#">Mark Student Attendance</a></li>
-                        <li><a href="#">Mark Teacher Attendance</a></li>
-                        <li><a href="#">View Attendance</a></li>
+                      <ul id="drop-nav">
+                        @yield('main_menu')
                       </ul>
-                    </li>
-
-                  <li><a href="#"><span>My Progress</span></a></li>
-                  
-                  <li><a href="#"><span>Class Allocation</span></a></li>
-
-                </ul>
                 </div>
 
                 <div id="logo-image-div" >

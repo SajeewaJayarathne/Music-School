@@ -69,14 +69,14 @@
           </div>
            
           
-          <input type="hidden" name="_token" value="{{{ Session::token() }}}" />
+          <input type="hidden" name="_token" value="{{ Session::token() }}" />
         </form>
 
         <form action="{{route('logout')}}" method="post">
           <div class="form-group" style="float: right; margin-right: 5px">
             <button type="logout" class="btn btn-primary1">Log Out</button>
           </div>
-          <input type="hidden" name="_token" value="{{{ Session::token() }}}" />
+          <input type="hidden" name="_token" value="{{ Session::token() }}" />
         </form>
       </div>
     </div>

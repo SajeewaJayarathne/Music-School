@@ -13,12 +13,11 @@ use ValidatesRequests;
 
 class UserController extends Controller
 {
-	public function logout(Request $request)
+	public function logout()
 	{	
 
-		$db = new DatabaseConnections();
-		$db -> storeUser();	
-		return redirect()->route('loginerror');
+		Auth::logout();
+		return redirect()->route('loginRedirect');
 	}
 
 	public function loginUser(Request $request)
@@ -43,7 +42,19 @@ class UserController extends Controller
 					$resultpassword = $row->password;
 				}
 				if(Hash::check($request['password'],$resultpassword)){
-					return redirect()->route('dashboard');
+                    $subqueryAdmin = DB::select('select * from admin where id = ?',[$request['id']]);
+                    $subqueryStudent = DB::select('select * from student where id = ?',[$request['id']]);
+                    $subqueryTeacher = DB::select('select * from teacher where id = ?',[$request['id']]);
+                    if($subqueryAdmin != null and $subqueryStudent == null and $subqueryTeacher == null ){
+                        return redirect()->route('admin_dashboard');
+                    }else if($subqueryAdmin == null and $subqueryStudent != null and $subqueryTeacher == null  ){
+                        return "student_dashboard";
+                    }else if($subqueryAdmin == null and $subqueryStudent == null and $subqueryTeacher != null  ){
+                        return "teacher_dashboard";
+                    }else{
+                        return redirect()->route('loginerror');
+                    }
+
 				}else{
 					return redirect()->route('loginerror');
 				}

@@ -1,5 +1,21 @@
 @extends('MainLayout.mainlayout')
 
+@section('main_menu')
+	<li><a href="#"><span>Attendance</span></a>
+		<ul>
+			<li><a href="#">Mark Student Attendance</a></li>
+			<li><a href="#">Mark Teacher Attendance</a></li>
+			<li><a href="#">View Attendance</a></li>
+		</ul>
+	</li>
+
+	<li><a href="#"><span>My Progress</span></a></li>
+
+	<li><a href="#"><span>Class Allocation</span></a></li>
+
+@stop
+
+
 @section('content_area')
 	<div style="color: white; text-align:center; padding:10px 10px;">
 	  <h3>MARK ATTENDANCE</h3>                                             
