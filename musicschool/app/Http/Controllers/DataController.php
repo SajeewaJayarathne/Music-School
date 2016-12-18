@@ -12,6 +12,12 @@ class DataController extends Controller
         return $studentID;
     }
 
+    public function getLessonID(\Symfony\Component\HttpFoundation\Request $request){
+        $id =  $request->input('lesson_id');
+        $lessonID = DB::select("SELECT lesson_id FROM lesson where lesson_id like '".$id."%'",[]);
+        return $lessonID;
+    }
+
     public function  storeStudent(Request $request){
         $status = DB::statement("call music_school.store_student(?, ?, ?, ?, 
         ?, ?, ?, ?, ?, ?, ?,?, ?, 

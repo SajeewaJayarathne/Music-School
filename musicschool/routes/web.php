@@ -47,6 +47,12 @@ Route::group(['middleware' =>['web']], function(){
 
     ]);
 
+    Route::get('/getLessonID',[
+        'uses'=> 'DataController@getLessonID',
+        'as' => 'getLessonID'
+
+    ]);
+
     Route::post('/storeStudent',[
         'uses'=> 'DataController@storeStudent',
         'as' => 'storeStudent'

@@ -337,3 +337,11 @@ html,body{
 .date-row li{
 	display:inline-block;
 }
+
+.col-md-6 ul{
+	display: inline-block;
+}
+
+.col-md-6 ul li{
+	display: inline;
+}

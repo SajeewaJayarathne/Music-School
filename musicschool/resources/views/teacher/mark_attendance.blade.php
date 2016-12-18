@@ -10,11 +10,9 @@
 	<div class="list-in-a-row">
 	<ul>
 		<li><h4 style="padding-right:5px;">Lesson :</h4></li>
-		<li><input list = "lesson_ids" class="form-control" type="text" name="lesson_id" size="35px" id="lesson_id" style="color:#000000;" /></li>
+		<li><input list = "lesson_IDs" class="form-control" type="text" name="lesson_id" size="35px" id="lesson_id" style="color:#000000;" /></li>
 		<datalist id="lesson_IDs">
-			{{--  @foreach($dataRows as $row)
-                  <option value=$row -> id >
-              @endforeach --}}
+
 		</datalist>
 	</ul>	
 
@@ -72,11 +70,13 @@
                 type : 'get',
                 success : function(data){
                     $('#select_2').show();
-                    $('#lesson_IDs').cleanData();
+                    $('#lesson_IDs').empty();
                     for(i =0; i < data.length; i++){
                         $('#lesson_IDs').append('<option value='+data[i].lesson_id+'>');
                     }
-                    console.log(data);
+
+
+
                 }
             })
         });

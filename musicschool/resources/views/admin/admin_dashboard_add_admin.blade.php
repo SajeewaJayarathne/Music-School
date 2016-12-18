@@ -103,7 +103,7 @@
 
             <ul>
                 <li style="padding-left: 450%">
-                    <button type="submit-attendance" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
+                    <button type="button" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
                 </li>
             </ul>
 
