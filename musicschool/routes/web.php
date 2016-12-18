@@ -41,9 +41,15 @@ Route::group(['middleware' =>['web']], function(){
 			'as' => 'loginRedirect'
 		]);
 
-    Route::get('/',[
+    Route::get('/getStudentID',[
         'uses'=> 'DataController@getStudentID',
         'as' => 'getStudentID'
+
+    ]);
+
+    Route::get('/getLessonID',[
+        'uses'=> 'DataController@getLessonID',
+        'as' => 'getLessonID'
 
     ]);
 
@@ -92,15 +98,75 @@ Route::group(['middleware' =>['web']], function(){
 			'middleware' => 'auth'
 		]);
 
+
+
+    Route::get('/teacher_dashboard',[
+        'uses'=> 'PagesController@teacher_dashboard',
+        'as' => 'teacher_dashboard',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/add_lesson',[
+        'uses'=> 'PagesController@add_lesson',
+        'as' => 'add_lesson',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/update_lesson',[
+        'uses'=> 'PagesController@update_lesson',
+        'as' => 'update_lesson',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/mark_student_attendance',[
+        'uses'=> 'PagesController@mark_student_attendance',
+        'as' => 'mark_student_attendance',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/mark_student_attendance_second',[
+        'uses'=> 'PagesController@mark_student_attendance_second',
+        'as' => 'mark_student_attendance_second',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/view_student_attendance',[
+        'uses'=> 'PagesController@view_student_attendance',
+        'as' => 'view_student_attendance',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/view_teacher_attendance',[
+        'uses'=> 'PagesController@view_teacher_attendance',
+        'as' => 'view_teacher_attendance',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/monthly_payment',[
+        'uses'=> 'PagesController@monthly_payment',
+        'as' => 'monthly_payment',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/add_grades',[
+        'uses'=> 'PagesController@add_grades',
+        'as' => 'add_grades',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/view_grades',[
+        'uses'=> 'PagesController@view_grades',
+        'as' => 'view_grades',
+        'middleware' => 'auth'
+    ]);
+
+    Route::post('/add_grades_second',[
+        'uses'=> 'PagesController@add_grades_second',
+        'as' => 'add_grades_second',
+        'middleware' => 'auth'
+    ]);
+
 	} 
 );
-
-
-
-
-
-
-
-Route::get('/attendance','PagesController@student_attendance');
 
 

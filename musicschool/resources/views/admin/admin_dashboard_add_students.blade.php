@@ -131,7 +131,7 @@
 
                 <ul>
                     <li style="padding-left: 750%">
-                    <button type="submit-attendance" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
+                    <button type="button" class="btn-lg btn-success" style="color:#000000; font-size:110%; "><b>SUBMIT</b></button>
                     </li>
                 </ul>
 
@@ -155,7 +155,7 @@
             $('#select_2').hide();
             $('#index').keyup(function(){
                 $.ajax({
-                    url : 'http://localhost:8000/',
+                    url : 'http://localhost:8000/getStudentID',
                     data : { index : $('#index').val()},
                     type : 'get',
                     success : function(data){

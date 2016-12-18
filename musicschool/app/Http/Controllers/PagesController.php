@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Symfony\Component\HttpFoundation\Request;
 
 class PagesController extends Controller
 {
@@ -16,11 +17,6 @@ class PagesController extends Controller
     public function loginerror()
     {
     	return view('Login.loginerror');
-    }
-
-    public function dashboard()
-    {
-    	return view('attendance.mark_student_attendance');
     }
 
     public function admin_dashboard()
@@ -47,8 +43,57 @@ class PagesController extends Controller
     	return view('MainLayout.mainlayout');
     }
 
-	public function student_attendance()
+
+    public function teacher_dashboard()
     {
-    	return view('attendance.mark_student_attendance');
+        return view('teacher.teacher_dashboard');
     }
+    public function add_lesson()
+    {
+        return view('teacher.add_lesson');
+    }
+    public function update_lesson()
+    {
+        return view('teacher.update_lesson');
+    }
+    public function mark_student_attendance()
+    {
+        return view('teacher.mark_attendance');
+    }
+    public function view_student_attendance()
+    {
+        return view('teacher.student_attendance');
+    }
+    public function view_teacher_attendance()
+    {
+        return view('teacher.my_attendance');
+    }
+    public function monthly_payment()
+    {
+        return view('teacher.monthly_payment');
+    }
+    public function add_grades()
+    {
+        return view('teacher.update_grade');
+    }
+    public function view_grades()
+    {
+        return view('teacher.view_grades');
+    }
+    public function add_grades_second(Request $request)
+    {
+        $var = $request->get('lesson_id');
+
+        return view('teacher.update_grade_second')->with('studentArray', $var);
+    }
+
+    public function mark_student_attendance_second(Request $request)
+    {
+        $lesson_id = $request->get('lesson_id');
+        $date = $request->get('date');
+        return view('teacher.mark_attendance_second')->with('studentArray', $var);
+    }
+
+
+
 }
