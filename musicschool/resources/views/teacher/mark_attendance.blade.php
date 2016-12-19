@@ -46,9 +46,6 @@
                     for(i =0; i < data.length; i++){
                         $('#lesson_IDs').append('<option value='+data[i].lesson_id+'>');
                     }
-
-
-
                 }
             })
         });

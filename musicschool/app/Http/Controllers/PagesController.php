@@ -18,11 +18,6 @@ class PagesController extends Controller
     	return view('Login.loginerror');
     }
 
-    public function dashboard()
-    {
-    	return view('attendance.mark_student_attendance');
-    }
-
     public function admin_dashboard()
     {
         $data = " some data";
