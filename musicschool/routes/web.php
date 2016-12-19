@@ -95,6 +95,12 @@ Route::group(['middleware' =>['web']], function(){
         'middleware' => 'auth'
     ]);
 
+    Route::get('/add_classroom',[
+        'uses'=> 'PagesController@add_classroom',
+        'as' => 'add_classroom',
+        'middleware' => 'auth'
+    ]);
+
     Route::get('/add_teachers',[
         'uses'=> 'PagesController@add_teachers',
         'as' => 'add_teachers',

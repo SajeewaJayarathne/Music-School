@@ -11,6 +11,7 @@
 
 	<li data-toggle="collapse" data-target="#classes" ><a href="#"><span>Classes</span></a>
 		<ul id="classes" class="collapse">
+			<li><a href="#" onclick="window.location ='{{route("add_classroom")}}'" >Add Classrooms</a></li>
 			<li><a href="#">View Classrooms</a></li>
 			<li><a href="#">Allocate Classrooms</a></li>
 			<li><a href="#">Update Allocations</a></li>

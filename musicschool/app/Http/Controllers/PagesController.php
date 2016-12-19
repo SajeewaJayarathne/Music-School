@@ -44,6 +44,11 @@ class PagesController extends Controller
         return view('admin.admin_dashboard_add_admin');
     }
 
+    public function add_classroom()
+    {
+        return view('admin.admin_dashboard_add_classroom');
+    }
+
 
     //from suji
 
