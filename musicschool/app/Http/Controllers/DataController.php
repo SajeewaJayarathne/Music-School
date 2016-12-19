@@ -25,6 +25,19 @@ class DataController extends Controller
         return view('teacher.mark_attendance_second',['studentList' => array($id,$date,$students)]) ;
     }
 
+    public function getStudentAttendanceList(\Symfony\Component\HttpFoundation\Request $request){
+        $id =  $request->input('lesson_id');
+        $date = $request ->input('date');
+        $attendedStudents = DB::select("SELECT student_id FROM student_attendance WHERE lesson_id = '".$id."' AND attend_date = '".$date."'",[]);
+        return view('teacher.student_attendance_second',['studentList' => array($id,$date,$attendedStudents)]) ;
+    }
+
+    public function getTeacherAttendanceList(\Symfony\Component\HttpFoundation\Request $request){
+        $year =  $request->input('year');
+        $month = $request ->input('month');
+        $teacherAttendanceList = DB::select("SELECT attend_date,check_in,check_out FROM teacher_attendance WHERE YEAR(attend_date) = '".$year."' AND MONTH(attend_date) = '".$month."'",[]);
+        return view('teacher.my_attendance_second',['AttendanceList' => array($teacherAttendanceList)]) ;
+    }
 
 
     public function  storeStudent(Request $request){
@@ -63,4 +76,20 @@ class DataController extends Controller
             return $status;
 
     }
+
+    //function to store lesson in DB
+    public function storeLesson(Request $request){
+        $status = DB::statement("call music_school.store_lesson(?, ?, ?, ?);",
+            [
+                $request['lesson_id'],
+                $request['lesson_name'],
+                $request['lesson_type'],
+                $request['credits']
+            ]);
+
+        return $status;
+    }
+
+
+
 }

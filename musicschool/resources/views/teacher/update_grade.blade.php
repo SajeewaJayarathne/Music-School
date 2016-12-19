@@ -10,17 +10,15 @@
         <div class="list-in-a-row">
             <ul>
                 <li><h4 style="padding-right:5px;">Lesson ID :</h4></li>
-                <li><input list = "lesson_ids" class="form-control" type="text" name="lesson_id" size="35px" id="lesson_id" style="color:#000000;" /></li>
+                <li><input list = "lesson_ids" class="form-control" type="text" name="lesson_id" id="lesson_id" size="35px" id="lesson_id" style="color:#000000;" /></li>
                 <datalist id="lesson_ids">
-                    {{--  @foreach($dataRows as $row)
-                          <option value=$row -> id >
-                      @endforeach --}}
+
                 </datalist>
             </ul>
         </div>
 
         <div class = "col-md-10" style="margin-left:2.2%; margin-top:2%;">
-            <button type="button" class="btn btn-primary1" id="update_grades" style="color:#000000; font-size:110%;"><b>UPDATE GRADES</b></button>
+            <button type="button" class="btn btn-primary1" id="update_grades" name="update_grades" style="color:#000000; font-size:110%;"><b>UPDATE GRADES</b></button>
         </div>
 
     </form>
@@ -34,11 +32,10 @@
                     type : 'get',
                     success : function(data){
                         $('#select_2').show();
-                        $('#lesson_ids').cleanData();
+                        $('#lesson_ids').empty();
                         for(i =0; i < data.length; i++){
                             $('#lesson_ids').append('<option value='+data[i].lesson_id+'>');
                         }
-                        console.log(data);
                     }
                 })
             });

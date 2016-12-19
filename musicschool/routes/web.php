@@ -55,6 +55,20 @@ Route::group(['middleware' =>['web']], function(){
 
     ]);
 
+    Route::post('/getStudentAttendanceList',[
+        'uses'=> 'DataController@getStudentAttendanceList',
+        'as' => 'getStudentAttendanceList',
+        'middleware' => 'auth'
+    ]);
+
+    Route::post('/getTeacherAttendanceList',[
+        'uses'=> 'DataController@getTeacherAttendanceList',
+        'as' => 'getTeacherAttendanceList',
+        'middleware' => 'auth'
+    ]);
+
+
+
     Route::get('/getLessonID',[
         'uses'=> 'DataController@getLessonID',
         'as' => 'getLessonID',
@@ -68,6 +82,14 @@ Route::group(['middleware' =>['web']], function(){
         'middleware' => 'auth'
 
     ]);
+
+    Route::post('/storeLesson',[
+        'uses'=> 'DataController@storeLesson',
+        'as' => 'storeLesson',
+        'middleware' => 'auth'
+
+    ]);
+
 //    Route::get('/',[
 //        'uses'=> 'PagesController@login',
 //        'as' => 'loginRedirect'
