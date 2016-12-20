@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0353b33-bdc4-4222-8dfe-abf12dc1605a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UI/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/public/MainLayout/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/attendance/mark_student_attendance.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/attendance/view_attendance_by_teachers.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/musicschool/resources/views/attendance/student_attendance.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/public/MainLayout/icons/background.png" afterPath="$PROJECT_DIR$/musicschool/public/MainLayout/icons/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/css/bootstrap.css" afterPath="$PROJECT_DIR$/UI/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/css/default.css" afterPath="$PROJECT_DIR$/UI/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/index.html" afterPath="$PROJECT_DIR$/UI/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/app/DatabaseConnections.php" afterPath="$PROJECT_DIR$/musicschool/app/DatabaseConnections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teacher_attendance.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_allocate_classrooms.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_student_payments.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_teacher_payments.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_classrooms.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_template.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance_list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_payments.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_my_payments.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance_second.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DB Model.mwb" afterPath="$PROJECT_DIR$/DB/DB Model.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DB Model.mwb.bak" afterPath="$PROJECT_DIR$/DB/DB Model.mwb.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/app/Http/Controllers/DataController.php" afterPath="$PROJECT_DIR$/musicschool/app/Http/Controllers/DataController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/public/Login/css/default.css" afterPath="$PROJECT_DIR$/musicschool/public/Login/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/public/MainLayout/css/bootstrap.css" afterPath="$PROJECT_DIR$/musicschool/public/MainLayout/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/public/MainLayout/css/default.css" afterPath="$PROJECT_DIR$/musicschool/public/MainLayout/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/Login/login.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/Login/login.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_admin.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_admin.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_classroom.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_classroom.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_students.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_students.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachers.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachers.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_template.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance_second.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance_second.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/teacher/my_attendance_second.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/my_attendance_second.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_template.blade.php" afterPath="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_template.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicschool/routes/web.php" afterPath="$PROJECT_DIR$/musicschool/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,35 +44,73 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicschool/routes/web.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="admin_dashboard_add_classroom.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_classroom.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/UserController.php">
+      <file leaf-file-name="DataController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/DataController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="55" />
+            <state relative-caret-position="275">
+              <caret line="94" column="77" lean-forward="false" selection-start-line="94" selection-start-column="77" selection-end-line="94" selection-end-column="77" />
               <folding>
-                <marker date="1481980302444" expanded="true" signature="791:831" ph="select * fro... login_details" />
+                <element signature="e#40#68#0#PHP" expanded="true" />
+                <marker date="1482260674060" expanded="true" signature="309:351" ph="SELECT id FR... student" />
+                <marker date="1482260674060" expanded="true" signature="1270:1330" ph="SELECT lesso... lesson" />
+                <marker date="1482260674060" expanded="true" signature="1577:1624" ph="SELECT stude... takes" />
+                <marker date="1482260674060" expanded="true" signature="1577:1633" ph="SELECT stude... takes" />
+                <marker date="1482260674060" expanded="true" signature="1577:1638" ph="SELECT stude... takes" />
+                <marker date="1482260674060" expanded="true" signature="1983:2073" ph="SELECT lesso... student_attendance" />
+                <marker date="1482260674060" expanded="true" signature="1983:2074" ph="SELECT lesso... student_attendance" />
+                <marker date="1482260674060" expanded="true" signature="2410:2456" ph="SELECT * FRO... monthly_fee" />
+                <marker date="1482260674060" expanded="true" signature="2751:2801" ph="SELECT * FRO... monthly_payment" />
+                <marker date="1482260674060" expanded="true" signature="3136:3186" ph="update login... " />
+                <marker date="1482260674060" expanded="true" signature="3371:3512" ph="update month... " />
+                <marker date="1482260674060" expanded="true" signature="3754:3914" ph="update month... " />
+                <marker date="1482260674060" expanded="true" signature="4203:4322" ph="SELECT atten... teacher_attendance" />
+                <marker date="1482260674060" expanded="true" signature="4781:4805" ph="SELECT * FRO... class_room" />
+                <marker date="1482260674060" expanded="true" signature="4781:4807" ph="SELECT * FRO... class_room" />
+                <marker date="1482260674060" expanded="true" signature="8559:8583" ph="SELECT * FRO... instrument" />
+                <marker date="1482260674060" expanded="true" signature="9236:9315" ph="SELECT atten... student_attendance" />
+                <marker date="1482260674060" expanded="true" signature="9689:9788" ph="SELECT stude... student_attendance" />
+                <marker date="1482260674060" expanded="true" signature="10602:10681" ph="SELECT atten... student_attendance" />
+                <marker date="1482260674060" expanded="true" signature="11816:11860" ph="SELECT id FR... teacher" />
+                <marker date="1482260674060" expanded="true" signature="12053:12093" ph="SELECT * FRO... teacher_attendance_summary" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/Login/login.blade.php">
+      <file leaf-file-name="admin_dashboard_update_student_payments.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_student_payments.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="338">
+              <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_dashboard_update_teacher_payments.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_teacher_payments.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+              <folding>
+                <element signature="e#633#673#0#HTML" expanded="true" />
+                <element signature="e#770#808#0#HTML" expanded="true" />
+                <element signature="e#1163#1185#0#HTML" expanded="true" />
+                <element signature="e#1377#1416#0#HTML" expanded="true" />
+                <element signature="e#1490#1530#0#HTML" expanded="true" />
+                <element signature="e#1633#1671#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,22 +118,22 @@
       <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="164" column="59" lean-forward="false" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="59" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+                <marker date="1482258654815" expanded="true" signature="855:903" ph="select lesso... takes" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseConnections.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/musicschool/app/DatabaseConnections.php">
+      <file leaf-file-name="admin_dashboard_template.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-              <folding>
-                <marker date="1481989210043" expanded="true" signature="143:216" ph="insert into login_details... " />
-                <marker date="1481989210043" expanded="true" signature="342:368" ph="select * fro... lesson" />
-              </folding>
+            <state relative-caret-position="389">
+              <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,18 +141,38 @@
       <file leaf-file-name="mainlayout.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+            <state relative-caret-position="207">
+              <caret line="70" column="78" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mark_student_attendance.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/attendance/mark_student_attendance.blade.php">
+      <file leaf-file-name="admin_dashboard_add_teachers.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="49">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_dashboard_allocate_classrooms.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_allocate_classrooms.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="130" column="13" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="130" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicschool/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="412" column="55" lean-forward="false" selection-start-line="412" selection-start-column="33" selection-end-line="412" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -112,15 +180,85 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>storeStudent</find>
+      <find>storeR</find>
+      <find>getTeacherAttendanceList</find>
+      <find>allo</find>
+      <find>allocateClass</find>
+      <find>dashboard</find>
+      <find>student_da</find>
+      <find>student_dashboard</find>
+      <find>studentA</find>
+      <find>getS</find>
+      <find>getStudentAttendanceList_</find>
+      <find>getStudentList</find>
+      <find>Auth</find>
+      <find>check_in_teacher</find>
+      <find>add_admin</find>
+      <find>getStudentAttendanceList</find>
+      <find>view_stude</find>
+      <find>view_student_attendance</find>
+      <find>getStud</find>
+      <find>getStudentAttend</find>
+      <find>getStuden</find>
+      <find>SELECT attend_date,check_in,check_out</find>
+      <find>getT</find>
+      <find>monthly_payment</find>
+      <find>view_teacher_attendance_adminview_student_attendance_second_teacher</find>
+      <find>storeStudentAttendance</find>
+      <find>view_student_attendance_second_teacher</find>
+      <find>popup-window-settings-modal-body</find>
+      <find>modal-body</find>
+      <find>optio</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/musicschool/app/DatabaseConnections.php" />
-        <option value="$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php" />
         <option value="$PROJECT_DIR$/musicschool/resources/views/attendance/mark_student_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachersblade.php" />
+        <option value="$PROJECT_DIR$/musicschool/app/DatabaseConnections.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/Login/login.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/musicschool/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/add_lesson.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_classroom.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_classrooms.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_allocate_classrooms.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_allocate_classrooms.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance_list.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_students.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_template.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_student_payments.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_payments.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teacher_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_admin.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_instruments.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance_second.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/my_attendance_second.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_my_payments.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_template.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_teacher_attendance.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance_second.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/public/MainLayout/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachers.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_template.blade.php" />
+        <option value="$PROJECT_DIR$/musicschool/routes/web.php" />
+        <option value="$PROJECT_DIR$/musicschool/app/Http/Controllers/DataController.php" />
+        <option value="$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_teacher_payments.blade.php" />
       </list>
     </option>
   </component>
@@ -130,11 +268,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/musicschool/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1365" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectView">
@@ -152,6 +292,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,7 +409,59 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="attendance" />
+              <option name="myItemId" value="teacher" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicschool" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicschool" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,15 +505,55 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="musicschool" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Login" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainLayout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Music-School" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicschool" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainLayout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,16 +625,91 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="setting&#9;ACTION&#9;Database.Settings&#10;mark_a&#9;FILE&#9;file://C:/Repositories/DBMS/Music-School/musicschool/resources/views/teacher/mark_attendance.blade.php&#10;student_attendance.blade.php&#9;FILE&#9;file://C:/Repositories/DBMS/Music-School/musicschool/resources/views/teacher/student_attendance.blade.php&#10;add_le&#9;FILE&#9;file://C:/Repositories/DBMS/Music-School/musicschool/resources/views/teacher/add_lesson.blade.php&#10;kernel.php&#9;FILE&#9;file://C:/Repositories/DBMS/Music-School/musicschool/app/Http/Kernel.php&#10;kernel.p&#9;FILE&#9;file://C:/Repositories/DBMS/Music-School/musicschool/app/Console/Kernel.php" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repositories\DBMS\Music-School\musicschool\resources\views\teacher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Repositories\DBMS\Music-School\musicschool\resources\views\admin" />
+      <recent name="C:\Repositories\DBMS\Music-School\musicschool\resources\views\teacher" />
+      <recent name="C:\Repositories\DBMS\Music-School\musicschool\resources\views\student" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -410,32 +718,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481985490573</updated>
-      <workItem from="1481985492768" duration="4605000" />
+      <workItem from="1481985492768" duration="44029000" />
+      <workItem from="1482076807693" duration="13822000" />
+      <workItem from="1482140027984" duration="58089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4605000" />
+    <option name="totallyTimeSpent" value="115940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="0" width="1365" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -451,64 +762,440 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php">
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/attendance/view_attendance_by_teachers.blade.php" />
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/attendance/mark_student_attendance.blade.php" />
+    <entry file="file://$PROJECT_DIR$/musicschool/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="369">
+          <caret line="95" column="32" lean-forward="false" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php">
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/Auth/ResetPasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicschool/app/DatabaseConnections.php">
+    <entry file="file://$PROJECT_DIR$/musicschool/config/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <marker date="1481989210043" expanded="true" signature="143:216" ph="insert into login_details... " />
-            <marker date="1481989210043" expanded="true" signature="342:368" ph="select * fro... lesson" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicschool/resources/views/Login/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="952">
+          <caret line="56" column="59" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/add_lesson.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/LoginViewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="55" />
+        <state relative-caret-position="544">
+          <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="63" />
           <folding>
-            <marker date="1481980302444" expanded="true" signature="791:831" ph="select * fro... login_details" />
+            <marker date="1482074649101" expanded="true" signature="738:778" ph="select * fro... login_details" />
+            <marker date="1482074649101" expanded="true" signature="1062:1094" ph="select * fro... admin" />
+            <marker date="1482074649101" expanded="true" signature="1166:1200" ph="select * fro... student" />
+            <marker date="1482074649101" expanded="true" signature="1272:1306" ph="select * fro... teacher" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/DatabaseConnections.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <marker date="1482036240113" expanded="true" signature="145:218" ph="insert into login_details... " />
+            <marker date="1482036240113" expanded="true" signature="351:377" ph="select * fro... lesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/student_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_attendance_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding>
+            <element signature="e#88#147#0#HTML" expanded="false" />
+            <element signature="e#239#318#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_students.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teacher_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="88" column="70" lean-forward="false" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="70" />
+          <folding>
+            <element signature="e#536#582#0#HTML" expanded="false" />
+            <element signature="e#769#807#0#HTML" expanded="false" />
+            <element signature="e#1051#1089#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_instruments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_view_my_payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="77" lean-forward="false" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/student/student_dashboard_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="88" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance_second.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_student_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/my_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/my_attendance_second.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_view_my_payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_student_attendance_second.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_teacher_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/mark_attendance_second.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="86" column="11" lean-forward="false" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/teacher/teacher_dashboard_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="148" lean-forward="false" selection-start-line="18" selection-start-column="148" selection-end-line="18" selection-end-column="148" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/public/MainLayout/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/public/MainLayout/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="1193" column="17" lean-forward="false" selection-start-line="1193" selection-start-column="17" selection-end-line="1193" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_classrooms.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_instruments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_view_student_attendance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="167" column="60" lean-forward="false" selection-start-line="167" selection-start-column="60" selection-end-line="167" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_classroom.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_add_teachers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_allocate_classrooms.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="130" column="13" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="130" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/MainLayout/mainlayout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="70" column="78" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="164" column="59" lean-forward="false" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="59" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1482258654815" expanded="true" signature="855:903" ph="select lesso... takes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_student_payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicschool/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="293">
+          <caret line="412" column="55" lean-forward="false" selection-start-line="412" selection-start-column="33" selection-end-line="412" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/attendance/mark_student_attendance.blade.php">
+    <entry file="file://$PROJECT_DIR$/musicschool/app/Http/Controllers/DataController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="275">
+          <caret line="94" column="77" lean-forward="false" selection-start-line="94" selection-start-column="77" selection-end-line="94" selection-end-column="77" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1482260674060" expanded="true" signature="309:351" ph="SELECT id FR... student" />
+            <marker date="1482260674060" expanded="true" signature="1270:1330" ph="SELECT lesso... lesson" />
+            <marker date="1482260674060" expanded="true" signature="1577:1624" ph="SELECT stude... takes" />
+            <marker date="1482260674060" expanded="true" signature="1577:1633" ph="SELECT stude... takes" />
+            <marker date="1482260674060" expanded="true" signature="1577:1638" ph="SELECT stude... takes" />
+            <marker date="1482260674060" expanded="true" signature="1983:2073" ph="SELECT lesso... student_attendance" />
+            <marker date="1482260674060" expanded="true" signature="1983:2074" ph="SELECT lesso... student_attendance" />
+            <marker date="1482260674060" expanded="true" signature="2410:2456" ph="SELECT * FRO... monthly_fee" />
+            <marker date="1482260674060" expanded="true" signature="2751:2801" ph="SELECT * FRO... monthly_payment" />
+            <marker date="1482260674060" expanded="true" signature="3136:3186" ph="update login... " />
+            <marker date="1482260674060" expanded="true" signature="3371:3512" ph="update month... " />
+            <marker date="1482260674060" expanded="true" signature="3754:3914" ph="update month... " />
+            <marker date="1482260674060" expanded="true" signature="4203:4322" ph="SELECT atten... teacher_attendance" />
+            <marker date="1482260674060" expanded="true" signature="4781:4805" ph="SELECT * FRO... class_room" />
+            <marker date="1482260674060" expanded="true" signature="4781:4807" ph="SELECT * FRO... class_room" />
+            <marker date="1482260674060" expanded="true" signature="8559:8583" ph="SELECT * FRO... instrument" />
+            <marker date="1482260674060" expanded="true" signature="9236:9315" ph="SELECT atten... student_attendance" />
+            <marker date="1482260674060" expanded="true" signature="9689:9788" ph="SELECT stude... student_attendance" />
+            <marker date="1482260674060" expanded="true" signature="10602:10681" ph="SELECT atten... student_attendance" />
+            <marker date="1482260674060" expanded="true" signature="11816:11860" ph="SELECT id FR... teacher" />
+            <marker date="1482260674060" expanded="true" signature="12053:12093" ph="SELECT * FRO... teacher_attendance_summary" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicschool/resources/views/admin/admin_dashboard_update_teacher_payments.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="e#633#673#0#HTML" expanded="true" />
+            <element signature="e#770#808#0#HTML" expanded="true" />
+            <element signature="e#1163#1185#0#HTML" expanded="true" />
+            <element signature="e#1377#1416#0#HTML" expanded="true" />
+            <element signature="e#1490#1530#0#HTML" expanded="true" />
+            <element signature="e#1633#1671#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

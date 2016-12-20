@@ -255,7 +255,7 @@
                         },
                         type : 'post',
                         success : function(data){
-                                console.log(data);
+                            alert("Successfully added the student!");
                         },
                         error : function(error){
                             alert(error.statusText);

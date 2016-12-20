@@ -67,13 +67,72 @@ Route::group(['middleware' =>['web']], function(){
         'middleware' => 'auth'
     ]);
 
+    Route::post('/getClassroomList',[
+        'uses'=> 'DataController@getClassroomList',
+        'as' => 'getClassroomList',
+        'middleware' => 'auth'
+    ]);
+
 
 
     Route::get('/getLessonID',[
         'uses'=> 'DataController@getLessonID',
         'as' => 'getLessonID',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/getClassroomList',[
+        'uses'=> 'DataController@getClassroomList',
+        'as' => 'getClassroomList',
+        'middleware' => 'auth'
+
+    ]);
 
 
+
+    Route::post('/check_in_teacher',[
+        'uses'=> 'DataController@check_in_teacher',
+        'as' => 'check_in_teacher',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/check_out_teacher',[
+        'uses'=> 'DataController@check_out_teacher',
+        'as' => 'check_out_teacher',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/getStudentAttendanceList_student',[
+        'uses'=> 'DataController@getStudentAttendanceList_student',
+        'as' => 'getStudentAttendanceList_student',
+        'middleware' => 'auth'
+
+    ]);
+
+
+    Route::get('/add_teacher_attendance',[
+        'uses'=> 'PagesController@add_teacher_attendance',
+        'as' => 'add_teacher_attendance',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/student_dashboard_view_my_payments',[
+        'uses'=> 'DataController@student_dashboard_view_my_payments',
+        'as' => 'student_dashboard_view_my_payments',
+        'middleware' => 'auth'
+
+    ]);
+
+
+
+    Route::get('/allocateClassrooms',[
+        'uses'=> 'PagesController@allocateClassrooms',
+        'as' => 'allocateClassrooms',
+        'middleware' => 'auth'
     ]);
 
     Route::post('/storeStudent',[
@@ -83,9 +142,32 @@ Route::group(['middleware' =>['web']], function(){
 
     ]);
 
+    Route::post('/storeRoom',[
+        'uses'=> 'DataController@storeRoom',
+        'as' => 'storeRoom',
+
+
+    ]);
+
+    Route::post('/allocateClass',[
+        'uses'=> 'DataController@allocateClass',
+        'as' => 'allocateClass',
+
+
+    ]);
+
     Route::post('/storeLesson',[
         'uses'=> 'DataController@storeLesson',
         'as' => 'storeLesson',
+        'middleware' => 'auth'
+
+    ]);
+
+
+
+    Route::post('/updateReceipt',[
+        'uses'=> 'DataController@updateReceipt',
+        'as' => 'updateReceipt',
         'middleware' => 'auth'
 
     ]);
@@ -108,6 +190,13 @@ Route::group(['middleware' =>['web']], function(){
     Route::get('/admin_dashboard',[
         'uses'=> 'PagesController@admin_dashboard',
         'as' => 'admin_dashboard',
+        'middleware' => 'auth'
+    ]);
+
+
+    Route::get('/update_student_payments',[
+        'uses'=> 'PagesController@update_student_payments',
+        'as' => 'update_student_payments',
         'middleware' => 'auth'
     ]);
 
@@ -145,7 +234,12 @@ Route::group(['middleware' =>['web']], function(){
 	//From Suji
 
 
+    Route::post('/storeStudentAttendance',[
+        'uses'=> 'DataController@storeStudentAttendance',
+        'as' => 'storeStudentAttendance',
+        'middleware' => 'auth'
 
+    ]);
 
 
     Route::get('/teacher_dashboard',[
@@ -184,6 +278,14 @@ Route::group(['middleware' =>['web']], function(){
         'middleware' => 'auth'
     ]);
 
+    Route::get('/view_student_attendance_teacher',[
+        'uses'=> 'PagesController@view_student_attendance_teacher',
+        'as' => 'view_student_attendance_teacher',
+        'middleware' => 'auth'
+    ]);
+
+
+
     Route::get('/view_teacher_attendance',[
         'uses'=> 'PagesController@view_teacher_attendance',
         'as' => 'view_teacher_attendance',
@@ -191,7 +293,7 @@ Route::group(['middleware' =>['web']], function(){
     ]);
 
     Route::get('/monthly_payment',[
-        'uses'=> 'PagesController@monthly_payment',
+        'uses'=> 'DataController@monthly_payment',
         'as' => 'monthly_payment',
         'middleware' => 'auth'
     ]);
@@ -214,6 +316,142 @@ Route::group(['middleware' =>['web']], function(){
         'middleware' => 'auth'
     ]);
 
+
+    //Student Stuff
+    Route::get('/student_dashboard',[
+        'uses'=> 'PagesController@student_dashboard',
+        'as' => 'student_dashboard',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/student_dashboard_view_my_attendance',[
+        'uses'=> 'PagesController@student_dashboard_view_my_attendance',
+        'as' => 'student_dashboard_view_my_attendance',
+        'middleware' => 'auth'
+    ]);
+
+
+    //Shadini
+
+    Route::post('/getStudentAttendanceList',[
+        'uses'=> 'DataController@getStudentAttendanceList',
+        'as' => 'getStudentAttendanceList',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/add_admin',[
+        'uses'=> 'PagesController@add_admin',
+        'as' => 'add_admin',
+        'middleware' => 'auth'
+    ]);
+
+    Route::post('/storeAdmin',[
+        'uses'=> 'DataController@storeAdmin',
+        'as' => 'storeAdmin',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/add_instruments',[
+        'uses'=> 'PagesController@add_instruments',
+        'as' => 'add_instruments',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/getInstrumentList',[
+        'uses'=> 'DataController@getInstrumentList',
+        'as' => 'getInstrumentList',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/view_student_attendance',[
+        'uses'=> 'PagesController@view_student_attendance',
+        'as' => 'view_student_attendance',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/view_student_attendance_second',[
+        'uses'=> 'PagesController@view_student_attendance_second',
+        'as' => 'view_student_attendance_second',
+        'middleware' => 'auth'
+    ]);
+
+
+    Route::get('/add_student_payments',[
+        'uses'=> 'PagesController@add_student_payments',
+        'as' => 'add_student_payments',
+        'middleware' => 'auth'
+    ]);
+
+    Route::post('/storeInstrument',[
+        'uses'=> 'DataController@storeInstrument',
+        'as' => 'storeInstrument',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/storeStudentPayment',[
+        'uses'=> 'DataController@storeStudentPayment',
+        'as' => 'storeStudentPayment',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::get('/admin_dashboard_update_teacher_payments',[
+        'uses'=> 'PagesController@admin_dashboard_update_teacher_payments',
+        'as' => 'admin_dashboard_update_teacher_payments',
+        'middleware' => 'auth'
+
+    ]);
+
+
+
+
+    Route::post('/teacher_payment_update',[
+        'uses'=> 'DataController@teacher_payment_update',
+        'as' => 'teacher_payment_update',
+        'middleware' => 'auth'
+
+    ]);
+
+
+    Route::post('/all_payment_update',[
+        'uses'=> 'DataController@all_payment_update',
+        'as' => 'all_payment_update',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/change_password',[
+        'uses'=> 'DataController@change_password',
+        'as' => 'change_password',
+        'middleware' => 'auth'
+
+    ]);
+
+    Route::post('/getStudentAttendanceList_teacher',[
+        'uses'=> 'DataController@getStudentAttendanceList_teacher',
+        'as' => 'getStudentAttendanceList_teacher',
+        'middleware' => 'auth'
+    ]);
+
+    //Himashi starts
+
+    Route::post('/storeTeacher',[
+        'uses'=> 'DataController@storeTeacher',
+        'as' => 'storeTeacher',
+        'middleware' => 'auth'
+
+    ]);
+//Himashi ends
+
+    Route::get('/view_teacher_attendance_admin',[
+        'uses'=> 'DataController@view_teacher_attendance_admin',
+        'as' => 'view_teacher_attendance_admin',
+        'middleware' => 'auth'
+    ]);
 
 	}
 

@@ -52,23 +52,31 @@
               <h4 class = "modal-title" id = "popup-window-settings-modal-title">Settings</h4>
             </div>
             <div class = "modal-body" id = "popup-window-settings-modal-body">
-              <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
-                <h4 class = "modal-title">.</h4>
+
+                <form >
+                    <h4 class = "modal-title">Change My Password</h4>
+                    <div class="col-md-12" id = "login-form-text">
+
+                        <ul>
+                            <li>
+                                <input class="form-control" placeholder="Old Password" type = "password" id="popup-window-old-password">
+                            </li>
+                            <li>
+                                <input class="form-control" placeholder="New Password" type = "password" id="popup-window-new-password">
+                            </li>
+                            <li>
+                                <input class="form-control" placeholder="Confirm New Password" type = "password" id="popup-window-confirm-new-password">
+                            </li>
+                            <li>
+                                <button class = "btn btn-success" type="button" id="popup-window-login-btn">Enter</button>
+                            </li>
+                        </ul>
+
+                    </div>
+                </form>
+
             </div>
             <div class = "modal-footer">
-              <h4 class = "modal-title"></h4>
-                <h4 class = "modal-title"></h4>
-                <h4 class = "modal-title"></h4>
-                <h4 class = "modal-title"></h4>
             </div>
         </div>
     </div>
@@ -92,7 +100,7 @@
                               <input class="form-control" placeholder="Enter Passphrase..." type = "password" id="popup-window-login-text">
                             </li>
                             <li>
-                              <button class = "btn btn-primary" id="popup-window-login-btn">Enter</button>
+                              <button class = "btn btn-primary" id="popup-window-login-btn">Submit</button>
                             </li>
                         </ul>
                        
@@ -170,6 +178,40 @@
     </nav>
     </div>
 
+  <script>
+      $(document).ready(function() {
+
+          $('#popup-window-login-btn').click(function(){
+
+              if($('#popup-window-old-password').val() == "" || $('#popup-window-old-password').val() == "" ||
+                  $('#popup-window-confirm-new-password').val() == ""
+              )
+              {
+                  alert("Error: Required fields are empty!");
+              }
+              else
+              {
+                  $.ajax({
+                      url : 'http://localhost:8000/change_password',
+                      data : {
+
+                          password : $('#popup-window-confirm-new-password').val()
+
+                      },
+
+                      type : 'post',
+                      success : function(){
+                          alert("Success: Successfully Changed Password");
+                      },
+                      error : function(error){
+                          alert(error.statusText);
+                      }
+                  })
+              }
+          });
+      });
+
+  </script>
 
 
   <!-- Include all compiled plugins (below), or include individual files as needed --> 

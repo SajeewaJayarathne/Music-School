@@ -11,12 +11,12 @@
 	<li data-toggle="collapse" data-target="#attendance" ><a href="#"><span>Attendance</span></a>
 		<ul id="attendance" class="collapse">
 			<li><a href="#" onclick="window.location ='{{route("mark_student_attendance")}}'">Mark Attendance</a></li>
-			<li><a href="#" onclick="window.location ='{{route("view_student_attendance")}}'">Student Attendance</a></li>
+			<li><a href="#" onclick="window.location ='{{route("view_student_attendance_teacher")}}'">Student Attendance</a></li>
 			<li><a href="#" onclick="window.location ='{{route("view_teacher_attendance")}}'">My Attendance</a></li>
 		</ul>
 	</li>
 
-	<li data-toggle="collapse" data-target="#monthly_payment"><a href="#" onclick="window.location ='{{route("monthly_payment")}}'"><span>Monthly Payment</span></a></li>
+	<li data-toggle="collapse" data-target="#monthly_payment" ><a href="#" onclick="window.location ='{{route("monthly_payment")}}'"><span>My Salary</span></a></li>
 
 	<li data-toggle="collapse" data-target="#grades" ><a href="#"><span>Student Grades</span></a>
 		<ul id="grades" class="collapse">
